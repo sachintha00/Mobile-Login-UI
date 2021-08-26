@@ -18,13 +18,25 @@
         android:layout_marginTop="300dp"
         />
 
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam "
+        android:textAlignment="center"
+        android:textColor="#A7A7A7"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
     <com.google.android.material.textfield.TextInputLayout
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="280dp"
         android:layout_height="55dp"
-        android:hint="hint"
-        app:boxStrokeColor="#EAEAEE"
-        app:hintTextColor="#EAEAEE">
+        android:layout_marginTop="30dp"
+        android:hint="Username"
+        android:textColorHint="#A7A7A7"
+        app:boxStrokeColor="#A7A7A7"
+        app:hintTextColor="#A7A7A7">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -32,8 +44,39 @@
 
             android:textColor="#707070"
             android:textColorHint="#A7A7A7"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:textColorHint="#A7A7A7"
+        app:boxStrokeColor="#A7A7A7"
+        app:hintTextColor="#A7A7A7">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#707070"
+            android:textColorHint="#A7A7A7"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="end"
+        android:layout_marginRight="-10dp"
+        android:text="Forget Password?"
+        android:textColor="#095B9E"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
 
 <!--    <EditText-->
 <!--        android:layout_width="280dp"-->
@@ -63,7 +106,17 @@
         android:textSize="18dp"
         android:textStyle="bold"
         android:textColor="#FFFF"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="15dp"
         />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Forget Password?"
+        android:textAlignment="center"
+        android:textColor="#A7A7A7"
+        android:textSize="15dp"
+        android:textStyle="bold" />
 
 </LinearLayout>
