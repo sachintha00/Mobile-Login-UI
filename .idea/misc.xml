@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/Projects/Mobile-Login-UI/app/src/main/res/drawable/button.xml" value="0.2703125" />
+        <entry key="..\:/Android/Projects/Mobile-Login-UI/app/src/main/res/drawable/forget.xml" value="0.2703125" />
+        <entry key="..\:/Android/Projects/Mobile-Login-UI/app/src/main/res/drawable/textBox.xml" value="0.2703125" />
         <entry key="..\:/Android/Projects/Mobile-Login-UI/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
       </map>
     </option>
