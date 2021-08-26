@@ -1,8 +1,6 @@
 # Mobile-Login-UI
 mobile login UI with Linear Layout
 
-The constraint layout used here.
-
 Some screen-shots running through the real device (SAMSUNG-M20)👇
 
 ![Screenshot_22](https://user-images.githubusercontent.com/80079235/130967207-5e746fd6-6c1e-4710-8527-973a617092ef.png)
