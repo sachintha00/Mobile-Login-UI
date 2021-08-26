@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/background"
+    android:background="@drawable/background2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -29,6 +29,7 @@
         android:textStyle="italic" />
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtUsername"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="280dp"
         android:layout_height="55dp"
@@ -39,15 +40,17 @@
         app:hintTextColor="#A7A7A7">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputUsername"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
 
+            android:layout_height="wrap_content"
             android:textColor="#707070"
             android:textColorHint="#A7A7A7"
             android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtPassword"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="280dp"
         android:layout_height="55dp"
@@ -58,21 +61,23 @@
         app:hintTextColor="#A7A7A7">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputPassword"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
 
+            android:layout_height="wrap_content"
             android:textColor="#707070"
             android:textColorHint="#A7A7A7"
             android:textSize="16sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
+        android:id="@+id/lblForgotPw"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:gravity="end"
         android:layout_marginRight="-10dp"
-        android:text="Forget Password?"
+        android:gravity="end"
+        android:text="Forgot Password?"
         android:textColor="#095B9E"
         android:textSize="17dp"
         android:textStyle="bold" />
@@ -99,21 +104,22 @@
 <!--        />-->
 
     <Button
+        android:id="@+id/btnLogin"
         android:layout_width="280dp"
         android:layout_height="50dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/button"
         android:text="Login"
-        android:textSize="18dp"
-        android:textStyle="bold"
         android:textColor="#FFFF"
-        android:layout_marginTop="15dp"
-        />
+        android:textSize="18dp"
+        android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/lblCreateAccount"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="Forget Password?"
+        android:text="Dont have an account? Sign Up"
         android:textAlignment="center"
         android:textColor="#A7A7A7"
         android:textSize="15dp"
